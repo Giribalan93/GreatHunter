@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🎬 AI Movie Companion</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+
+    <div class="header">
+        🎬 AI Movie Companion
+    </div>
+
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-area">
+        <input type="text" id="user-input" placeholder="Ask about any movie...">
+        <button onclick="sendMessage()">➤</button>
+        <button onclick="startVoice()">🎤</button>
+    </div>
+    <div id="movieModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+
+        <h2 id="modal-title"></h2>
+
+        <iframe id="trailer" width="100%" height="200" frameborder="0" allowfullscreen></iframe>
+
+        <p><b>⭐ Rating:</b> <span id="modal-rating"></span></p>
+        <p><b>🎭 Cast:</b> <span id="modal-actors"></span></p>
+        <p><b>🎬 Director:</b> <span id="modal-director"></span></p>
+        <p><b>📖 Plot:</b> <span id="modal-plot"></span></p>
+
+    </div>
+</div>
+</div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
