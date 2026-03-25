@@ -1,0 +1,241 @@
+movie_db = {
+    "inception": {
+        "title": "Inception",
+        "year": "2010",
+        "rating": "8.8",
+        "actors": "Leonardo DiCaprio, Joseph Gordon-Levitt",
+        "director": "Christopher Nolan",
+        "plot": "A thief enters dreams to steal secrets.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRyuWmayVBvqjd1MxTKpRgauq2cCtUzb7Q9QvaFTkAuxAU_EYMoCE3wBuJeftxIzf0grreIw&s=10",
+        "genre": "Sci-Fi",
+        "trailer": "https://www.youtube.com/embed/YoHD9XEInc0"
+    },
+
+    "interstellar": {
+        "title": "Interstellar",
+        "year": "2014",
+        "rating": "8.6",
+        "actors": "Matthew McConaughey, Anne Hathaway",
+        "director": "Christopher Nolan",
+        "plot": "A team travels through a wormhole to save humanity.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngBJ0B7UDrLUkDlp6DCQLsEYuWR-DiHwbnxFFCniB3HiP3f3NZmR1-lKSC34ge6YXu4LX&s=10",
+        "genre": "Sci-Fi",
+        "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E"
+    },
+
+    "avatar": {
+        "title": "Avatar",
+        "year": "2009",
+        "rating": "7.9",
+        "actors": "Sam Worthington, Zoe Saldana",
+        "director": "James Cameron",
+        "plot": "A marine explores an alien world called Pandora.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwJPOxfRiaHwXkICnf6LKMHIPWJPGLx8wht-wZH-qFs0OXXUCBvOeCQTs79z7Bx9odsdsB&s=10",
+        "genre": "Sci-Fi",
+        "trailer": "https://www.youtube.com/embed/5PSNL1qE6VY"
+    },
+
+    "titanic": {
+        "title": "Titanic",
+        "year": "1997",
+        "rating": "7.9",
+        "actors": "Leonardo DiCaprio, Kate Winslet",
+        "director": "James Cameron",
+        "plot": "A love story aboard the ill-fated Titanic ship.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgihod3yq5fSmT3F9FixQX09sFIYNVZ1s-1LqmxSz6778pTLFPm8oAoXN1DXOpmA9kKz9woFsipJsxtwXAoaakkZFRhvild6YrlRb_bA&s=10",
+        "genre": "Romance",
+        "trailer": "https://www.youtube.com/embed/kVrqfYjkTdQ"
+    },
+
+    "joker": {
+        "title": "Joker",
+        "year": "2019",
+        "rating": "8.4",
+        "actors": "Joaquin Phoenix",
+        "director": "Todd Phillips",
+        "plot": "A man descends into madness and becomes Joker.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkNeYGwWeQEwOoPhxW93QIeNUWnLmEvMPwTw9AlDBGN4uXjIAcOEwz2z2yZL8BpXHp3ZYyjQ&s=10",
+        "genre": "Drama",
+        "trailer": "https://www.youtube.com/embed/zAGVQLHvwOY"
+    },
+
+    "avengers_endgame": {
+        "title": "Avengers: Endgame",
+        "year": "2019",
+        "rating": "8.4",
+        "actors": "Robert Downey Jr., Chris Evans",
+        "director": "Anthony Russo",
+        "plot": "Heroes unite to undo Thanos' snap.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/TcMBFSGVi1c"
+    },
+
+    "vikram": {
+        "title": "Vikram",
+        "year": "2022",
+        "rating": "8.3",
+        "actors": "Kamal Haasan, Vijay Sethupathi",
+        "director": "Lokesh Kanagaraj",
+        "plot": "A special agent uncovers a drug syndicate.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQDfkDWR2xTZDcmDdOp7kJQHO6aqQr1e3BjQ&s",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/OKBMCL-frPU"
+    },
+
+    "master": {
+        "title": "Master",
+        "year": "2021",
+        "rating": "7.3",
+        "actors": "Vijay, Vijay Sethupathi",
+        "director": "Lokesh Kanagaraj",
+        "plot": "A professor clashes with a ruthless gangster.",
+        "poster": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSYQfIvAL9hPymsSd5nyOo7raJ-Gp0IGwikhGrecXP5Hc6B2EL-",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/UTiXQcrLlv4"
+    },
+
+    "leo": {
+        "title": "Leo",
+        "year": "2023",
+        "rating": "7.2",
+        "actors": "Vijay, Trisha",
+        "director": "Lokesh Kanagaraj",
+        "plot": "A cafe owner hides a violent past.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0wab8d8w6kjByHrgOkfV9GyDj1fFOSsqLw&s",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/Po3jStA673E"
+    },
+
+    "jailer": {
+        "title": "Jailer",
+        "year": "2023",
+        "rating": "7.1",
+        "actors": "Rajinikanth, Vinayakan",
+        "director": "Nelson",
+        "plot": "A retired jailer hunts criminals.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTE4NjQ5NmYtNzMxYi00MTlmLWEwZWQtYjkyNTY0MDJmZWYyXkEyXkFqcGc@._V1_.jpg",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/Y5BeWdODPqo"
+    },
+
+    "enthiran": {
+        "title": "Enthiran",
+        "year": "2010",
+        "rating": "7.1",
+        "actors": "Rajinikanth, Aishwarya Rai",
+        "director": "Shankar",
+        "plot": "A robot develops emotions and turns dangerous.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmMRrpWZuEEVhxdFSBhQOtHMNjxeV5QRRHUQ&s",
+        "genre": "Sci-Fi",
+        "trailer": "https://www.youtube.com/embed/sY_F6issHsU"
+    },
+
+    "2.0": {
+        "title": "2.0",
+        "year": "2018",
+        "rating": "6.1",
+        "actors": "Rajinikanth, Akshay Kumar",
+        "director": "Shankar",
+        "plot": "A scientist battles a supernatural force.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmIwNThhM2UtZGRjOS00NmM5LTkzMDYtZmFhMTQyZDI0ZTgxXkEyXkFqcGc@._V1_.jpg",
+        "genre": "Sci-Fi",
+        "trailer": "https://www.youtube.com/embed/GV3HUDMQ-F8"
+    },
+
+    "kaithi": {
+        "title": "Kaithi",
+        "year": "2019",
+        "rating": "8.5",
+        "actors": "Karthi",
+        "director": "Lokesh Kanagaraj",
+        "plot": "A prisoner helps police in one night mission.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREJKIgZg5fDrV-o-okfgeXBFlTd4jwq1EPV-3LA_z9aH5ZsM_5p9RH0dY6pNNVgeL8Y9gQEQ&s=10",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/3gY1VZf1T8A"
+    },
+
+    "soorarai_pottru": {
+        "title": "Soorarai Pottru",
+        "year": "2020",
+        "rating": "8.7",
+        "actors": "Suriya",
+        "director": "Sudha Kongara",
+        "plot": "A man dreams of making air travel affordable.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOENEB5LVS5n_KsAkQ9tOnnhaCKJugfFWjJmBDHaSJNOyAgyikE1hcb_kkXs4k7zq_q7_f&s=10",
+        "genre": "Drama",
+        "trailer": "https://www.youtube.com/embed/fa_DIwRsa9o"
+    },
+
+    "doctor": {
+        "title": "Doctor",
+        "year": "2021",
+        "rating": "7.5",
+        "actors": "Sivakarthikeyan",
+        "director": "Nelson",
+        "plot": "A doctor rescues a kidnapped girl.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt0frOrnLgcANTtvmCGgZ9-hRqNu0JO-7q9-SPgpYjhPWwQu_I0PwVWThhF4G_El-bdxJw&s=10",
+        "genre": "Comedy",
+        "trailer": "https://www.youtube.com/embed/0wC0kU9oQ2A"
+    },
+
+    "beast": {
+        "title": "Beast",
+        "year": "2022",
+        "rating": "5.3",
+        "actors": "Vijay, Pooja Hegde",
+        "director": "Nelson",
+        "plot": "A spy rescues hostages in a mall.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCaeMM1WoEb5Rf6xL7MkwSOz7AsvUu8IF4uj7HeF3M-zaZBaPRmilpjpAfZK4_WQ7CVzuT&s=10",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/0E1kVRRi6lk"
+    },
+
+    "the_dark_knight": {
+        "title": "The Dark Knight",
+        "year": "2008",
+        "rating": "9.0",
+        "actors": "Christian Bale, Heath Ledger",
+        "director": "Christopher Nolan",
+        "plot": "Batman faces the Joker in Gotham.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5TMq0czRLKvkxDnPwean3pekktrO-lSEXFw&s",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY"
+    },
+
+    "oppenheimer": {
+        "title": "Oppenheimer",
+        "year": "2023",
+        "rating": "8.5",
+        "actors": "Cillian Murphy",
+        "director": "Christopher Nolan",
+        "plot": "Story of the atomic bomb creator.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8FFJNBaIXvhEwqXXw40rYYDci8jPlYxWfy9082flliYoZ-SqqZjy0az-G5rIWuSJp2pn7xQ&s=10",
+        "genre": "Biography",
+        "trailer": "https://www.youtube.com/embed/uYPbbksJxIg"
+    },
+
+    "spiderman_no_way_home": {
+        "title": "Spider-Man: No Way Home",
+        "year": "2021",
+        "rating": "8.2",
+        "actors": "Tom Holland",
+        "director": "Jon Watts",
+        "plot": "Spider-Man faces villains from multiverse.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoBbV1cm1zPYG83x9vhcuLqS7zoD8Al52Bu-lGNIBk_q2r2yD3sOxV_oZwerMbBwZXVfse8Q&s=10",
+        "genre": "Action",
+        "trailer": "https://www.youtube.com/embed/JfVOs4VSpmA"
+    },
+
+    "doctor_strange": {
+        "title": "Doctor Strange",
+        "year": "2016",
+        "rating": "7.5",
+        "actors": "Benedict Cumberbatch",
+        "director": "Scott Derrickson",
+        "plot": "A surgeon becomes a mystical hero.",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWCvm2jN-QykoEwZJivikl3aQeUw2gxcI5WvWU5Kmx2tmIwMBdu9Bjpkw_9ztcNyumv03T1A&s=10",
+        "genre": "Fantasy",
+        "trailer": "https://www.youtube.com/embed/HSzx-zryEgM"
+    }
+}
